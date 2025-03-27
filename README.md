@@ -4,11 +4,11 @@ This repository contains a structured set of SQL scripts for managing a streamin
 
 ## 🏗️ Database Structure & Scripts
 
-1. 📜 CreareTabele.sql – Database Schema Definition
+  1. 📜 CreareTabele.sql – Database Schema Definition
 
--  Defines the structure of the database, creating tables for users, subscriptions, content, and streaming history.
+  -  Defines the structure of the database, creating tables for users, subscriptions, content, and streaming history.
 
--  Includes primary keys, foreign keys, and constraints to ensure data integrity.
+  -  Includes primary keys, foreign keys, and constraints to ensure data integrity.
 
 2.1. 📥 PopulareTabele.sql – Data Population Script
 
