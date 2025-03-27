@@ -42,10 +42,10 @@ This repository contains a structured set of SQL scripts for managing a streamin
 
 ## 🌟 Key Highlights
 
--  Well-Structured Database – Organized schema with clearly defined relationships.
+-  *Well-Structured Database* – Organized schema with clearly defined relationships.
 
--  Comprehensive SQL Operations – Covers CRUD, queries, testing, and optimizations.
+-  *Comprehensive SQL Operations* – Covers CRUD, queries, testing, and optimizations.
 
--  Data Integrity & Validation – Ensures correct constraints and relationships.
+-  *Data Integrity & Validation* – Ensures correct constraints and relationships.
 
--  Real-World Application – Simulates a streaming platform's database structure.
+-  *Real-World Application* – Simulates a streaming platform's database structure.
