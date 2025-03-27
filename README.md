@@ -19,7 +19,7 @@ Defines the structure of the database:
 
 -  ⭐ Recenzii (Reviews) – Stores user ratings and comments. Linked to Utilizatori and ContinutMedia (users review content).
 
--  📱 Dispozitive (Devices) – Tracks devices used for streaming. Linked to Utilizatori (each user has multiple devices).
+-  📱 Dispozitive (Devices) – Tracks devices used for streaming. Linked to Utilizatori (each user has one or multiple devices).
 
 -  🛒 ServiciiDeStreaming (Streaming Services) – Stores available platforms (Netflix, HBO, etc.). Linked to AbonamenteUtilizatori (tracks user subscriptions).
 
