@@ -42,7 +42,7 @@ Defines the structure of the database:
 
 ### 3. ⚙️ ScriptSQL.sql – Comprehensive Database Setup
 
--  A one-stop script that may include table creation, data insertion, and queries.
+-  A one-stop script that include table creation, data insertion, and queries.
 
 -  Simplifies the process of setting up and using the database.
 
