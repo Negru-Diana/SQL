@@ -14,7 +14,6 @@ This repository contains a structured set of SQL scripts for managing a streamin
 
 -  Inserts sample data into the tables for testing and development.
 
--  Adds predefined users, movies, series, and subscriptions.
 
 ### 2.2. 🔍 Interogari.sql – SQL Queries for Data Retrieval
 
