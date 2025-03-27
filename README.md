@@ -6,9 +6,28 @@ This repository contains a structured set of SQL scripts for managing a streamin
 
 ### 1. 📜 CreareTabele.sql – Database Schema Definition
 
-  -  Defines the structure of the database, creating tables for users, subscriptions, content, and streaming history.
+Defines the structure of the database:
+-  🧑‍💻 Utilizatori (Users) – Stores user details. Connected to DateCard, Vizualizari, Recenzii, AbonamenteUtilizatori, and Dispozitive (tracks subscriptions, payments, and activity).
 
-  -  Includes primary keys, foreign keys, and constraints to ensure data integrity.
+-  💳 DateCard (Card Details) – Stores payment details for users. Linked to Utilizatori (each user has one card).
+
+-  🎥 ContinutMedia (Media Content) – Stores movies and shows. Linked to Episoade, Vizualizari, and Recenzii (tracks episodes, viewing history, and reviews).
+
+-  📺 Episoade (Episodes) – Stores episodes for TV shows. Linked to ContinutMedia (each episode belongs to a show) and Vizualizari (tracks user activity).
+
+-  👀 Vizualizari (Viewing History) – Logs what users watch. Linked to Utilizatori, ContinutMedia, and Episoade (records viewing activity).
+
+-  ⭐ Recenzii (Reviews) – Stores user ratings and comments. Linked to Utilizatori and ContinutMedia (users review content).
+
+-  📱 Dispozitive (Devices) – Tracks devices used for streaming. Linked to Utilizatori (each user has multiple devices).
+
+-  🛒 ServiciiDeStreaming (Streaming Services) – Stores available platforms (Netflix, HBO, etc.). Linked to AbonamenteUtilizatori (tracks user subscriptions).
+
+-  📄 TipuriDeAbonamente (Subscription Plans) – Defines subscription types. Linked to AbonamenteUtilizatori (subscriptions reference a plan).
+
+-  📜 AbonamenteUtilizatori (User Subscriptions) – Tracks user subscriptions. Linked to Utilizatori, ServiciiDeStreaming, and TipuriDeAbonamente (manages user plans).
+
+-  💰 Facturi (Billing & Payments) – Tracks invoices. Linked to Utilizatori and AbonamenteUtilizatori (manages payments for subscriptions).  
 
 ### 2.1. 📥 PopulareTabele.sql – Data Population Script
 
